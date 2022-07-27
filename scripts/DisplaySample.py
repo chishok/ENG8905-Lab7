@@ -5,6 +5,9 @@ import adafruit_ssd1306
 
 # This example is based on https://learn.adafruit.com/monochrome-oled-breakouts/python-usage-2
 
+# text to draw
+text = "Hello World!"
+
 # Change these to the right size for your display!
 WIDTH = 128
 HEIGHT = 32  # Change to 64 if needed
@@ -42,7 +45,6 @@ draw.rectangle(
 font = ImageFont.load_default()
 
 # Draw Some Text
-text = "Hello World!"
 (font_width, font_height) = font.getsize(text)
 draw.text(
     (oled.width // 2 - font_width // 2, oled.height // 2 - font_height // 2),

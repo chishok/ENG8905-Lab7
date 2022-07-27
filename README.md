@@ -1,4 +1,4 @@
-# ENG8905 Sensors - Lab Template
+# ENG 8905 - Quadrature Encoders Part 1 The Knob
 
 **Lab7 instructions online**: [https://chishok.github.io/ENG8905/ENG8905-Lab7](https://chishok.github.io/ENG8905/ENG8905-Lab7)
 
