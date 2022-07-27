@@ -1,0 +1,16 @@
+# IDE config
+.vscode/
+
+# build folders
+build*/
+cmake-build*/
+
+# virtual environment
+venv/
+
+# data
+data/*
+!data/README.md
+
+# Python
+__pycache__
